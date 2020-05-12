@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="250dp"
+        android:background="#FF1744"
+        android:textSize="28dp"
+        android:layout_gravity="center"
+        android:textColor="#FFCDD2"
+        android:id="@+id/btn_test"
+        android:text="Test Load ảnh"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="#D50000"
+        android:gravity="center"
+        android:textSize="28dp"
+        android:text="VSBG.info"
+        android:layout_height="wrap_content" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:id="@+id/listView"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

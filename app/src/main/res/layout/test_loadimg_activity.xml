@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btn_normal"
+        android:text="Load Image Normal"
+        android:textSize="24dp"
+        android:textColor="#000000"
+        android:paddingLeft="25dp"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:id="@+id/img_normal"
+        android:layout_height="200dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_glide"
+        android:text="Load Image By Glide"
+        android:textSize="24dp"
+        android:textColor="#000000"
+        android:paddingLeft="25dp"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:id="@+id/img_Glide"
+        android:layout_marginTop="10dp"
+        android:layout_height="200dp" />
+
+</LinearLayout>
